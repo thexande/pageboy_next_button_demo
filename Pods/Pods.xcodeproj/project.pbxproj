@@ -1,0 +1,914 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08AC703855576F09BDFB5DE4AB9C7257 /* Pods-pageboy_demoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E0101B9D1CCE7FE4834CD1AA397A0DB /* Pods-pageboy_demoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BBCF215072076740AC84DA9CE17A4FC /* TransitionOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08532A451EAC142CBDD058C5C8985625 /* TransitionOperation.swift */; };
+		2D3747C5861B0FC0ECAA806A45A42AD4 /* UIViewController+PageboyExtras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B25C871B421C91D5D1D544D2AEEEF54 /* UIViewController+PageboyExtras.swift */; };
+		3AAE47E38E8882E36C20EE044EC4C76F /* PageboyAutoScroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1518AC67A0CFFEE77F1A760010663C /* PageboyAutoScroller.swift */; };
+		57FF626B5104B45F61ACC4955C25997E /* UIView+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4553F7E77A2866E77A131C8F1ED7E4B7 /* UIView+Localization.swift */; };
+		6392F6296428F71D54DE5A34FFAF3F8B /* TransitionOperation+Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BF78E0E695824874F28522531EA038 /* TransitionOperation+Action.swift */; };
+		66190409FD3947A67C2696C0C644F5F9 /* PageboyViewController+ScrollDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822F4BAA4A0B4D7F337188A31002ECF3 /* PageboyViewController+ScrollDetection.swift */; };
+		7B0A9A34DA7F363EDDAD4ED4D691A337 /* Pods-pageboy_demoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3237FD24CDDB105755064BE5881BF24B /* Pods-pageboy_demoUITests-dummy.m */; };
+		7C094FBD7841E7C627E3B50611D49C6F /* Pods-pageboy_demoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F36F53CD09BC652C75EA53B44D74F1 /* Pods-pageboy_demoTests-dummy.m */; };
+		7F84CD65B6EF39F1A3E0D7FBA5DE449E /* PageboyViewController+Transitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D28DF8A03AC4B4ADCEF5CDD70367F0 /* PageboyViewController+Transitioning.swift */; };
+		7FCC8BF1B9CF67210EE14FB4E95E8369 /* Pageboy.h in Headers */ = {isa = PBXBuildFile; fileRef = 7054509784C01AC3D388787895431264 /* Pageboy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83D123347F5C799AD77539A0DBC6D6E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A1EE0270B86EC45185415E1469C0BA40 /* UIView+AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BBB31D081585757F31B9A04469DAD1 /* UIView+AutoLayout.swift */; };
+		A746E7795B8D2B952E087B7F17A88ECD /* Pods-pageboy_demoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F47030D1EF0280521A679FA962C78A1 /* Pods-pageboy_demoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B068EE9BB9B63FD32A3450FF96177700 /* PageboyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317FA422D2124747CF309A1634B83195 /* PageboyViewController.swift */; };
+		B23E62D84C390460DF1986C478866873 /* Pods-pageboy_demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A1189900FB446B991496D122D5B3B56 /* Pods-pageboy_demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6D2773E545EF2ED0FE4F04A3977DD28 /* Pageboy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13E7D95862044FECF0C26CC899651607 /* Pageboy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0B8AA22E2B1C8687610134217F51A6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DCE16B098DD15DD6E076C7C51F308402 /* PageboyViewController+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE1A485008C4873B0B835A18CDE74AD /* PageboyViewController+Extras.swift */; };
+		DE98DD55467BC71410A3019537520A22 /* Pageboy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F3D4A3400A487ADFC27B4D6DDA8619 /* Pageboy-dummy.m */; };
+		E03AFA4C249BFE8239A6C7934CB103E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E15A1D7DF702DB6CF1F440850F35D26A /* UIPageViewController+ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6DC9B1DE41027DA9EAC91FAFEE2703 /* UIPageViewController+ScrollView.swift */; };
+		EBDB975AF953BE7F011E19B724628667 /* Pods-pageboy_demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD67E2DF4D03844FF5A9CECBDEABD579 /* Pods-pageboy_demo-dummy.m */; };
+		F3F1117A599A2BBCA366FCD6D336C76D /* PageboyViewController+Management.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5DA6A3B55B8BDB0BD753D0D58FA32B /* PageboyViewController+Management.swift */; };
+		FCC57BE80A29C88DA615EE6A15B75761 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A270E5DD7EDBB9EA80E3C6466282263B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1A536D32A3AB205243F6F605B3B5BCF;
+			remoteInfo = Pageboy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08532A451EAC142CBDD058C5C8985625 /* TransitionOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionOperation.swift; path = Sources/Pageboy/Utilities/TransitionOperation.swift; sourceTree = "<group>"; };
+		089ACD623693CC5BA9F8BE9E53105AEC /* Pods-pageboy_demoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pageboy_demoTests.release.xcconfig"; sourceTree = "<group>"; };
+		0A3BC32654DCF04BDB1F96D170793864 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CDE401AF82A82491487A32A8C18BB9C /* Pods-pageboy_demoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pageboy_demoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0F131AC049A3E75EC7085EAA948F989C /* Pods-pageboy_demoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pageboy_demoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0F7F9E092902D9BFB5DF6A82583AB3D1 /* Pods_pageboy_demoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_pageboy_demoTests.framework; path = "Pods-pageboy_demoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13E7D95862044FECF0C26CC899651607 /* Pageboy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pageboy-umbrella.h"; sourceTree = "<group>"; };
+		152672AF1852B07F0143F2FB97E8F398 /* Pods_pageboy_demoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_pageboy_demoUITests.framework; path = "Pods-pageboy_demoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AE1A485008C4873B0B835A18CDE74AD /* PageboyViewController+Extras.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PageboyViewController+Extras.swift"; path = "Sources/Pageboy/Extensions/PageboyViewController+Extras.swift"; sourceTree = "<group>"; };
+		1CAB4924B694D091CED0D0A955401F33 /* Pods-pageboy_demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pageboy_demo-frameworks.sh"; sourceTree = "<group>"; };
+		221C0F77A504099832D53B79313E84DE /* Pageboy-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pageboy-prefix.pch"; sourceTree = "<group>"; };
+		259EAE56E83ED5A062F6B900F5A76C22 /* Pods-pageboy_demoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-pageboy_demoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2706E8488ADF471B215A1C341F7D9F2B /* Pods-pageboy_demoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pageboy_demoTests-resources.sh"; sourceTree = "<group>"; };
+		2828530C9BCBBB13CA12EE745C072CA0 /* Pods-pageboy_demoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pageboy_demoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		28F36F53CD09BC652C75EA53B44D74F1 /* Pods-pageboy_demoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-pageboy_demoTests-dummy.m"; sourceTree = "<group>"; };
+		2B25C871B421C91D5D1D544D2AEEEF54 /* UIViewController+PageboyExtras.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+PageboyExtras.swift"; path = "Sources/Pageboy/Extensions/UIViewController+PageboyExtras.swift"; sourceTree = "<group>"; };
+		2E23BBA74DD31AA47D8E7AABC681929E /* Pageboy.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pageboy.xcconfig; sourceTree = "<group>"; };
+		2EA7EBAC64DB21F9E0AB7283EF0E5BB5 /* Pods-pageboy_demoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pageboy_demoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		2F47030D1EF0280521A679FA962C78A1 /* Pods-pageboy_demoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-pageboy_demoTests-umbrella.h"; sourceTree = "<group>"; };
+		317FA422D2124747CF309A1634B83195 /* PageboyViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageboyViewController.swift; path = Sources/Pageboy/PageboyViewController.swift; sourceTree = "<group>"; };
+		31D28DF8A03AC4B4ADCEF5CDD70367F0 /* PageboyViewController+Transitioning.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PageboyViewController+Transitioning.swift"; path = "Sources/Pageboy/Extensions/PageboyViewController+Transitioning.swift"; sourceTree = "<group>"; };
+		3237FD24CDDB105755064BE5881BF24B /* Pods-pageboy_demoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-pageboy_demoUITests-dummy.m"; sourceTree = "<group>"; };
+		4553F7E77A2866E77A131C8F1ED7E4B7 /* UIView+Localization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Localization.swift"; path = "Sources/Pageboy/Utilities/UIView+Localization.swift"; sourceTree = "<group>"; };
+		45F9FD7822516A37D9031181728F71DF /* Pods-pageboy_demoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pageboy_demoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4A70D132CBE0C674598B1D98EDA05D89 /* Pods-pageboy_demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pageboy_demo.debug.xcconfig"; sourceTree = "<group>"; };
+		4E5DA6A3B55B8BDB0BD753D0D58FA32B /* PageboyViewController+Management.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PageboyViewController+Management.swift"; path = "Sources/Pageboy/Extensions/PageboyViewController+Management.swift"; sourceTree = "<group>"; };
+		4F9408498836156F2F7AD9F419DF7571 /* Pods-pageboy_demoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pageboy_demoTests-frameworks.sh"; sourceTree = "<group>"; };
+		5A1189900FB446B991496D122D5B3B56 /* Pods-pageboy_demo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-pageboy_demo-umbrella.h"; sourceTree = "<group>"; };
+		64592EBD221EC4B04D9B599AE8327308 /* Pods-pageboy_demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-pageboy_demo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6E0101B9D1CCE7FE4834CD1AA397A0DB /* Pods-pageboy_demoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-pageboy_demoUITests-umbrella.h"; sourceTree = "<group>"; };
+		7054509784C01AC3D388787895431264 /* Pageboy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Pageboy.h; path = Sources/Pageboy/Pageboy.h; sourceTree = "<group>"; };
+		70F3D4A3400A487ADFC27B4D6DDA8619 /* Pageboy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pageboy-dummy.m"; sourceTree = "<group>"; };
+		786A3F58DAD6D3F0D33085071E288C91 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		822F4BAA4A0B4D7F337188A31002ECF3 /* PageboyViewController+ScrollDetection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PageboyViewController+ScrollDetection.swift"; path = "Sources/Pageboy/Extensions/PageboyViewController+ScrollDetection.swift"; sourceTree = "<group>"; };
+		8911F7FD967094B357BE620391FA471F /* Pods-pageboy_demoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-pageboy_demoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8A6DC9B1DE41027DA9EAC91FAFEE2703 /* UIPageViewController+ScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIPageViewController+ScrollView.swift"; path = "Sources/Pageboy/Utilities/UIPageViewController+ScrollView.swift"; sourceTree = "<group>"; };
+		91E0397BE32FB47324384180B289FA5E /* Pods-pageboy_demoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-pageboy_demoTests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9BA0697CCE8FB06CADCE62803E02FE51 /* Pods-pageboy_demoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-pageboy_demoUITests.modulemap"; sourceTree = "<group>"; };
+		A3BF78E0E695824874F28522531EA038 /* TransitionOperation+Action.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TransitionOperation+Action.swift"; path = "Sources/Pageboy/Utilities/TransitionOperation+Action.swift"; sourceTree = "<group>"; };
+		B04ADDE53BDDD50AB1BBEEF91E7D6D48 /* Pods_pageboy_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_pageboy_demo.framework; path = "Pods-pageboy_demo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0ED362D0CDF2747C5F977F2640581F9 /* Pods-pageboy_demoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pageboy_demoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C1BBB31D081585757F31B9A04469DAD1 /* UIView+AutoLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+AutoLayout.swift"; path = "Sources/Pageboy/Utilities/UIView+AutoLayout.swift"; sourceTree = "<group>"; };
+		C9A86FF281C2926A0BF4E234C5DC0F51 /* Pageboy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Pageboy.modulemap; sourceTree = "<group>"; };
+		CE5372B9FE52355265F6EAEB9C640607 /* Pods-pageboy_demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pageboy_demo-acknowledgements.plist"; sourceTree = "<group>"; };
+		D1C639AEAD892B659E20B932FBF9A697 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D22DD80A8D3B42B80269618A4BE41DAB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4FEF305D71C521E9A37ADCD85AB7638 /* Pods-pageboy_demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-pageboy_demo.modulemap"; sourceTree = "<group>"; };
+		D9BE6CC0C72D2F0B8EC8CF5B6867EE0A /* Pods-pageboy_demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pageboy_demo.release.xcconfig"; sourceTree = "<group>"; };
+		EC1518AC67A0CFFEE77F1A760010663C /* PageboyAutoScroller.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageboyAutoScroller.swift; path = Sources/Pageboy/Components/PageboyAutoScroller.swift; sourceTree = "<group>"; };
+		EC96F016208237C7AC4BDCDA16812B50 /* Pods-pageboy_demoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pageboy_demoUITests-resources.sh"; sourceTree = "<group>"; };
+		ED332EA3B921656DAFF64B51898F8AFE /* Pods-pageboy_demo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pageboy_demo-resources.sh"; sourceTree = "<group>"; };
+		F35820008FCBB76EC807A3D1F4FCB67D /* Pageboy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pageboy.framework; path = Pageboy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD67E2DF4D03844FF5A9CECBDEABD579 /* Pods-pageboy_demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-pageboy_demo-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0723BE7E1BCB790CFA5EF99CFE758F5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC57BE80A29C88DA615EE6A15B75761 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E0199D42601B389DBB12254431272A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D123347F5C799AD77539A0DBC6D6E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A480A5AA47121B03EE02782BD762660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E03AFA4C249BFE8239A6C7934CB103E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA412FF81A292C77DA32340FF23CAC11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B8AA22E2B1C8687610134217F51A6F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C371BB65D656B3DC01202990418DC22 /* Pageboy */ = {
+			isa = PBXGroup;
+			children = (
+				7054509784C01AC3D388787895431264 /* Pageboy.h */,
+				EC1518AC67A0CFFEE77F1A760010663C /* PageboyAutoScroller.swift */,
+				317FA422D2124747CF309A1634B83195 /* PageboyViewController.swift */,
+				1AE1A485008C4873B0B835A18CDE74AD /* PageboyViewController+Extras.swift */,
+				4E5DA6A3B55B8BDB0BD753D0D58FA32B /* PageboyViewController+Management.swift */,
+				822F4BAA4A0B4D7F337188A31002ECF3 /* PageboyViewController+ScrollDetection.swift */,
+				31D28DF8A03AC4B4ADCEF5CDD70367F0 /* PageboyViewController+Transitioning.swift */,
+				08532A451EAC142CBDD058C5C8985625 /* TransitionOperation.swift */,
+				A3BF78E0E695824874F28522531EA038 /* TransitionOperation+Action.swift */,
+				8A6DC9B1DE41027DA9EAC91FAFEE2703 /* UIPageViewController+ScrollView.swift */,
+				C1BBB31D081585757F31B9A04469DAD1 /* UIView+AutoLayout.swift */,
+				4553F7E77A2866E77A131C8F1ED7E4B7 /* UIView+Localization.swift */,
+				2B25C871B421C91D5D1D544D2AEEEF54 /* UIViewController+PageboyExtras.swift */,
+				C65E3E4476671E2834A6063CF7AF1716 /* Support Files */,
+			);
+			name = Pageboy;
+			path = Pageboy;
+			sourceTree = "<group>";
+		};
+		2567C0FEDFBD309D61B6F5037E683438 /* Pods-pageboy_demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1C639AEAD892B659E20B932FBF9A697 /* Info.plist */,
+				91E0397BE32FB47324384180B289FA5E /* Pods-pageboy_demoTests.modulemap */,
+				259EAE56E83ED5A062F6B900F5A76C22 /* Pods-pageboy_demoTests-acknowledgements.markdown */,
+				0CDE401AF82A82491487A32A8C18BB9C /* Pods-pageboy_demoTests-acknowledgements.plist */,
+				28F36F53CD09BC652C75EA53B44D74F1 /* Pods-pageboy_demoTests-dummy.m */,
+				4F9408498836156F2F7AD9F419DF7571 /* Pods-pageboy_demoTests-frameworks.sh */,
+				2706E8488ADF471B215A1C341F7D9F2B /* Pods-pageboy_demoTests-resources.sh */,
+				2F47030D1EF0280521A679FA962C78A1 /* Pods-pageboy_demoTests-umbrella.h */,
+				45F9FD7822516A37D9031181728F71DF /* Pods-pageboy_demoTests.debug.xcconfig */,
+				089ACD623693CC5BA9F8BE9E53105AEC /* Pods-pageboy_demoTests.release.xcconfig */,
+			);
+			name = "Pods-pageboy_demoTests";
+			path = "Target Support Files/Pods-pageboy_demoTests";
+			sourceTree = "<group>";
+		};
+		416F20B2ED46AD654AFDC3F0D297E063 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F35820008FCBB76EC807A3D1F4FCB67D /* Pageboy.framework */,
+				B04ADDE53BDDD50AB1BBEEF91E7D6D48 /* Pods_pageboy_demo.framework */,
+				0F7F9E092902D9BFB5DF6A82583AB3D1 /* Pods_pageboy_demoTests.framework */,
+				152672AF1852B07F0143F2FB97E8F398 /* Pods_pageboy_demoUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F898913386A84FD491D78E6EFEAFCBD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C371BB65D656B3DC01202990418DC22 /* Pageboy */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		790654FCEF8588AD6850BAFC58DDBBE4 /* Pods-pageboy_demo */ = {
+			isa = PBXGroup;
+			children = (
+				786A3F58DAD6D3F0D33085071E288C91 /* Info.plist */,
+				D4FEF305D71C521E9A37ADCD85AB7638 /* Pods-pageboy_demo.modulemap */,
+				64592EBD221EC4B04D9B599AE8327308 /* Pods-pageboy_demo-acknowledgements.markdown */,
+				CE5372B9FE52355265F6EAEB9C640607 /* Pods-pageboy_demo-acknowledgements.plist */,
+				FD67E2DF4D03844FF5A9CECBDEABD579 /* Pods-pageboy_demo-dummy.m */,
+				1CAB4924B694D091CED0D0A955401F33 /* Pods-pageboy_demo-frameworks.sh */,
+				ED332EA3B921656DAFF64B51898F8AFE /* Pods-pageboy_demo-resources.sh */,
+				5A1189900FB446B991496D122D5B3B56 /* Pods-pageboy_demo-umbrella.h */,
+				4A70D132CBE0C674598B1D98EDA05D89 /* Pods-pageboy_demo.debug.xcconfig */,
+				D9BE6CC0C72D2F0B8EC8CF5B6867EE0A /* Pods-pageboy_demo.release.xcconfig */,
+			);
+			name = "Pods-pageboy_demo";
+			path = "Target Support Files/Pods-pageboy_demo";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4F898913386A84FD491D78E6EFEAFCBD /* Pods */,
+				416F20B2ED46AD654AFDC3F0D297E063 /* Products */,
+				EDE8EE160E07A037F7F3FC78301E0D6F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C65E3E4476671E2834A6063CF7AF1716 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D22DD80A8D3B42B80269618A4BE41DAB /* Info.plist */,
+				C9A86FF281C2926A0BF4E234C5DC0F51 /* Pageboy.modulemap */,
+				2E23BBA74DD31AA47D8E7AABC681929E /* Pageboy.xcconfig */,
+				70F3D4A3400A487ADFC27B4D6DDA8619 /* Pageboy-dummy.m */,
+				221C0F77A504099832D53B79313E84DE /* Pageboy-prefix.pch */,
+				13E7D95862044FECF0C26CC899651607 /* Pageboy-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pageboy";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EDE8EE160E07A037F7F3FC78301E0D6F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				790654FCEF8588AD6850BAFC58DDBBE4 /* Pods-pageboy_demo */,
+				2567C0FEDFBD309D61B6F5037E683438 /* Pods-pageboy_demoTests */,
+				FAC5B80F436FF3CAC43FEE81A183246A /* Pods-pageboy_demoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FAC5B80F436FF3CAC43FEE81A183246A /* Pods-pageboy_demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A3BC32654DCF04BDB1F96D170793864 /* Info.plist */,
+				9BA0697CCE8FB06CADCE62803E02FE51 /* Pods-pageboy_demoUITests.modulemap */,
+				8911F7FD967094B357BE620391FA471F /* Pods-pageboy_demoUITests-acknowledgements.markdown */,
+				B0ED362D0CDF2747C5F977F2640581F9 /* Pods-pageboy_demoUITests-acknowledgements.plist */,
+				3237FD24CDDB105755064BE5881BF24B /* Pods-pageboy_demoUITests-dummy.m */,
+				2EA7EBAC64DB21F9E0AB7283EF0E5BB5 /* Pods-pageboy_demoUITests-frameworks.sh */,
+				EC96F016208237C7AC4BDCDA16812B50 /* Pods-pageboy_demoUITests-resources.sh */,
+				6E0101B9D1CCE7FE4834CD1AA397A0DB /* Pods-pageboy_demoUITests-umbrella.h */,
+				2828530C9BCBBB13CA12EE745C072CA0 /* Pods-pageboy_demoUITests.debug.xcconfig */,
+				0F131AC049A3E75EC7085EAA948F989C /* Pods-pageboy_demoUITests.release.xcconfig */,
+			);
+			name = "Pods-pageboy_demoUITests";
+			path = "Target Support Files/Pods-pageboy_demoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5134B7E85CCEE0579184CBE1AAFBBF71 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6D2773E545EF2ED0FE4F04A3977DD28 /* Pageboy-umbrella.h in Headers */,
+				7FCC8BF1B9CF67210EE14FB4E95E8369 /* Pageboy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F4A5C0A4052BE26954EC821355AAABB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A746E7795B8D2B952E087B7F17A88ECD /* Pods-pageboy_demoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B153D29B25D62630292C7B26D2288D58 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08AC703855576F09BDFB5DE4AB9C7257 /* Pods-pageboy_demoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4397892EFE1EC1C56392B79D6A0580 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23E62D84C390460DF1986C478866873 /* Pods-pageboy_demo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		62CD962028F28DABB4C888073DC4FD8C /* Pods-pageboy_demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54D19ADED1BBEDE48CA0AE921B897098 /* Build configuration list for PBXNativeTarget "Pods-pageboy_demoUITests" */;
+			buildPhases = (
+				27EE3C5BEE9122A4C49A2ED9174365ED /* Sources */,
+				CA412FF81A292C77DA32340FF23CAC11 /* Frameworks */,
+				B153D29B25D62630292C7B26D2288D58 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-pageboy_demoUITests";
+			productName = "Pods-pageboy_demoUITests";
+			productReference = 152672AF1852B07F0143F2FB97E8F398 /* Pods_pageboy_demoUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A31058D086C2FBAD8CF9A54AFE7A3B6F /* Pods-pageboy_demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A54FF1669D8BE7557DADB3D1761FC13B /* Build configuration list for PBXNativeTarget "Pods-pageboy_demoTests" */;
+			buildPhases = (
+				88082F3A080375EE5DF6773FDE08BAF2 /* Sources */,
+				8A480A5AA47121B03EE02782BD762660 /* Frameworks */,
+				8F4A5C0A4052BE26954EC821355AAABB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-pageboy_demoTests";
+			productName = "Pods-pageboy_demoTests";
+			productReference = 0F7F9E092902D9BFB5DF6A82583AB3D1 /* Pods_pageboy_demoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D1A536D32A3AB205243F6F605B3B5BCF /* Pageboy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B5B574082841C303EE11765C5594D8C /* Build configuration list for PBXNativeTarget "Pageboy" */;
+			buildPhases = (
+				E0DDB424719475292470621DF5936C9B /* Sources */,
+				6E0199D42601B389DBB12254431272A8 /* Frameworks */,
+				5134B7E85CCEE0579184CBE1AAFBBF71 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pageboy;
+			productName = Pageboy;
+			productReference = F35820008FCBB76EC807A3D1F4FCB67D /* Pageboy.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DE27A30C24427E50DE2BB5C603B5C815 /* Pods-pageboy_demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 671520825B4AD09D1FCBD503FFE85955 /* Build configuration list for PBXNativeTarget "Pods-pageboy_demo" */;
+			buildPhases = (
+				960705A762776314E0F386625984D50B /* Sources */,
+				0723BE7E1BCB790CFA5EF99CFE758F5D /* Frameworks */,
+				CE4397892EFE1EC1C56392B79D6A0580 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8ABA37B97987EA3D234B710DF0CC8AF /* PBXTargetDependency */,
+			);
+			name = "Pods-pageboy_demo";
+			productName = "Pods-pageboy_demo";
+			productReference = B04ADDE53BDDD50AB1BBEEF91E7D6D48 /* Pods_pageboy_demo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 416F20B2ED46AD654AFDC3F0D297E063 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1A536D32A3AB205243F6F605B3B5BCF /* Pageboy */,
+				DE27A30C24427E50DE2BB5C603B5C815 /* Pods-pageboy_demo */,
+				A31058D086C2FBAD8CF9A54AFE7A3B6F /* Pods-pageboy_demoTests */,
+				62CD962028F28DABB4C888073DC4FD8C /* Pods-pageboy_demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27EE3C5BEE9122A4C49A2ED9174365ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B0A9A34DA7F363EDDAD4ED4D691A337 /* Pods-pageboy_demoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88082F3A080375EE5DF6773FDE08BAF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C094FBD7841E7C627E3B50611D49C6F /* Pods-pageboy_demoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960705A762776314E0F386625984D50B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBDB975AF953BE7F011E19B724628667 /* Pods-pageboy_demo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0DDB424719475292470621DF5936C9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE98DD55467BC71410A3019537520A22 /* Pageboy-dummy.m in Sources */,
+				3AAE47E38E8882E36C20EE044EC4C76F /* PageboyAutoScroller.swift in Sources */,
+				DCE16B098DD15DD6E076C7C51F308402 /* PageboyViewController+Extras.swift in Sources */,
+				F3F1117A599A2BBCA366FCD6D336C76D /* PageboyViewController+Management.swift in Sources */,
+				66190409FD3947A67C2696C0C644F5F9 /* PageboyViewController+ScrollDetection.swift in Sources */,
+				7F84CD65B6EF39F1A3E0D7FBA5DE449E /* PageboyViewController+Transitioning.swift in Sources */,
+				B068EE9BB9B63FD32A3450FF96177700 /* PageboyViewController.swift in Sources */,
+				6392F6296428F71D54DE5A34FFAF3F8B /* TransitionOperation+Action.swift in Sources */,
+				0BBCF215072076740AC84DA9CE17A4FC /* TransitionOperation.swift in Sources */,
+				E15A1D7DF702DB6CF1F440850F35D26A /* UIPageViewController+ScrollView.swift in Sources */,
+				A1EE0270B86EC45185415E1469C0BA40 /* UIView+AutoLayout.swift in Sources */,
+				57FF626B5104B45F61ACC4955C25997E /* UIView+Localization.swift in Sources */,
+				2D3747C5861B0FC0ECAA806A45A42AD4 /* UIViewController+PageboyExtras.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8ABA37B97987EA3D234B710DF0CC8AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Pageboy;
+			target = D1A536D32A3AB205243F6F605B3B5BCF /* Pageboy */;
+			targetProxy = A270E5DD7EDBB9EA80E3C6466282263B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BCC48C7EBE3903AF98AEB22AAB61870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A70D132CBE0C674598B1D98EDA05D89 /* Pods-pageboy_demo.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-pageboy_demo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-pageboy_demo/Pods-pageboy_demo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_pageboy_demo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2184AFCFF0687E9B5B19CBA177B4594B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E23BBA74DD31AA47D8E7AABC681929E /* Pageboy.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pageboy/Pageboy-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pageboy/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pageboy/Pageboy.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Pageboy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6D032A569C7F70D11BBEC43B8DCCBABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 089ACD623693CC5BA9F8BE9E53105AEC /* Pods-pageboy_demoTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-pageboy_demoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-pageboy_demoTests/Pods-pageboy_demoTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_pageboy_demoTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A5DADAAC9B8CA4E6DBC7720D36074DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2828530C9BCBBB13CA12EE745C072CA0 /* Pods-pageboy_demoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-pageboy_demoUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-pageboy_demoUITests/Pods-pageboy_demoUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_pageboy_demoUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7C6BD31B6CDDBD58A0A72B3CC15F229E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9BE6CC0C72D2F0B8EC8CF5B6867EE0A /* Pods-pageboy_demo.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-pageboy_demo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-pageboy_demo/Pods-pageboy_demo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_pageboy_demo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9C9CCC560A6B14F03381FD5C17582DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45F9FD7822516A37D9031181728F71DF /* Pods-pageboy_demoTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-pageboy_demoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-pageboy_demoTests/Pods-pageboy_demoTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_pageboy_demoTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C8B250562AE42CAE20149DAD6699236C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F131AC049A3E75EC7085EAA948F989C /* Pods-pageboy_demoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-pageboy_demoUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-pageboy_demoUITests/Pods-pageboy_demoUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_pageboy_demoUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F040D8F9A0FD7AA1C0A1523A76E47BE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E23BBA74DD31AA47D8E7AABC681929E /* Pageboy.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pageboy/Pageboy-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pageboy/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pageboy/Pageboy.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Pageboy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B5B574082841C303EE11765C5594D8C /* Build configuration list for PBXNativeTarget "Pageboy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F040D8F9A0FD7AA1C0A1523A76E47BE2 /* Debug */,
+				2184AFCFF0687E9B5B19CBA177B4594B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54D19ADED1BBEDE48CA0AE921B897098 /* Build configuration list for PBXNativeTarget "Pods-pageboy_demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A5DADAAC9B8CA4E6DBC7720D36074DC /* Debug */,
+				C8B250562AE42CAE20149DAD6699236C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		671520825B4AD09D1FCBD503FFE85955 /* Build configuration list for PBXNativeTarget "Pods-pageboy_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BCC48C7EBE3903AF98AEB22AAB61870 /* Debug */,
+				7C6BD31B6CDDBD58A0A72B3CC15F229E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A54FF1669D8BE7557DADB3D1761FC13B /* Build configuration list for PBXNativeTarget "Pods-pageboy_demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C9CCC560A6B14F03381FD5C17582DD3 /* Debug */,
+				6D032A569C7F70D11BBEC43B8DCCBABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

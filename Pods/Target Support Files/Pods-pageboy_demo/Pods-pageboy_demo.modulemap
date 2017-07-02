@@ -1,0 +1,6 @@
+framework module Pods_pageboy_demo {
+  umbrella header "Pods-pageboy_demo-umbrella.h"
+
+  export *
+  module * { export * }
+}

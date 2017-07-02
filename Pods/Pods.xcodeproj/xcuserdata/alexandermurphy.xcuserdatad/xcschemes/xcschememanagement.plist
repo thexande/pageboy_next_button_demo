@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pageboy.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-pageboy_demo.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-pageboy_demoTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-pageboy_demoUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>62CD962028F28DABB4C888073DC4FD8C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A31058D086C2FBAD8CF9A54AFE7A3B6F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D1A536D32A3AB205243F6F605B3B5BCF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DE27A30C24427E50DE2BB5C603B5C815</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
