@@ -12,7 +12,7 @@ import UIKit
 class PageSuperViewController: UIViewController {
     lazy var nextButton: UIButton = {
         let button = UIButton()
-        button.setTitle("next view controller", for: .normal)
+        button.setTitle("pressed next".uppercased(), for: .normal)
         button.setTitleColor(.white, for: .normal)
         button.backgroundColor = .black
         button.addTarget(self, action: #selector(nextButtonPressed), for: .touchUpInside)

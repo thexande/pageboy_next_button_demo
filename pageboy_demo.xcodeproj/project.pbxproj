@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0577E87B8F2E236EF5926DA3 /* Pods_pageboy_demoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 019A776C6514187889015898 /* Pods_pageboy_demoUITests.framework */; };
 		1B95442988DB8901DFB07B90 /* Pods_pageboy_demoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC29B194F7C49C6C27885F16 /* Pods_pageboy_demoTests.framework */; };
+		2AA14C431F0AE7D8000DDD0C /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA14C421F0AE7D8000DDD0C /* NewViewController.swift */; };
 		7E8340C81C54838033653450 /* Pods_pageboy_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 016CC8C6C44F816A630A4F74 /* Pods_pageboy_demo.framework */; };
 		B00A06E81F0953C200A5C70F /* PageSuperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00A06E71F0953C200A5C70F /* PageSuperViewController.swift */; };
 		B00A06EA1F09557300A5C70F /* PageOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00A06E91F09557300A5C70F /* PageOneViewController.swift */; };
@@ -43,6 +44,7 @@
 		016CC8C6C44F816A630A4F74 /* Pods_pageboy_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pageboy_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		019A776C6514187889015898 /* Pods_pageboy_demoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pageboy_demoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D92A74262974B7004576689 /* Pods-pageboy_demoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pageboy_demoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-pageboy_demoTests/Pods-pageboy_demoTests.release.xcconfig"; sourceTree = "<group>"; };
+		2AA14C421F0AE7D8000DDD0C /* NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 		64303301F3D9460E0B09A513 /* Pods-pageboy_demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pageboy_demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-pageboy_demo/Pods-pageboy_demo.release.xcconfig"; sourceTree = "<group>"; };
 		7D3969B876DF4531C3FB310F /* Pods-pageboy_demoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pageboy_demoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pageboy_demoTests/Pods-pageboy_demoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AC29B194F7C49C6C27885F16 /* Pods_pageboy_demoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pageboy_demoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -152,6 +154,7 @@
 				B00A06E91F09557300A5C70F /* PageOneViewController.swift */,
 				B00A06EB1F09559F00A5C70F /* PageTwoViewController.swift */,
 				B00A06ED1F0955B000A5C70F /* PageThreeViewController.swift */,
+				2AA14C421F0AE7D8000DDD0C /* NewViewController.swift */,
 			);
 			path = pageboy_demo;
 			sourceTree = "<group>";
@@ -459,6 +462,7 @@
 			files = (
 				B00A06EA1F09557300A5C70F /* PageOneViewController.swift in Sources */,
 				B00A06E81F0953C200A5C70F /* PageSuperViewController.swift in Sources */,
+				2AA14C431F0AE7D8000DDD0C /* NewViewController.swift in Sources */,
 				B00A06EC1F09559F00A5C70F /* PageTwoViewController.swift in Sources */,
 				B0CBD95C1F09533500F346DE /* RootPageboyViewController.swift in Sources */,
 				B00A06EE1F0955B000A5C70F /* PageThreeViewController.swift in Sources */,
